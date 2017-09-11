@@ -1,12 +1,29 @@
 package sample.controller;
 
 import java.util.Scanner;
+import sample.model.PlayDohCircle;
+import sample.model.PlayDohSquare;
 
 public class SampleController
 {
 
 	public void start()
 	{
+		PlayDohSquare firstSquare = new PlayDohSquare();
+		PlayDohSquare secondSquare;
+		secondSquare = new PlayDohSquare(100);
+		
+		
+		
+		
+		PlayDohCircle firstCircle = new PlayDohCircle();
+		PlayDohCircle secondCircle;
+		secondCircle = new PlayDohCircle();
+		
+		PlayDohCircle thirdCircle;
+		thirdCircle = new PlayDohCircle(10);
+		
+		
 		System.out.println("This is a sample project to show the github and");
 		System.out.println("eclipse process so I develop muscle memory :D");
 		
