@@ -17,4 +17,12 @@ public class PlayDohCircle
 	{
 		this.size = size;
 	}
+	
+	//How you define the object as text.
+	public String toString()
+	{
+		String description = "I am a PlayDohCircle and my size is " + size;
+		return description;
+		
+	}
 }

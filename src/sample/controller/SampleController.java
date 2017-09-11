@@ -14,8 +14,6 @@ public class SampleController
 		secondSquare = new PlayDohSquare(100);
 		
 		
-		
-		
 		PlayDohCircle firstCircle = new PlayDohCircle();
 		PlayDohCircle secondCircle;
 		secondCircle = new PlayDohCircle();
@@ -24,12 +22,24 @@ public class SampleController
 		thirdCircle = new PlayDohCircle(10);
 		
 		
+		System.out.println("Here is my play doh circle");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + secondCircle);
+		System.out.println("Here is my third circle " + thirdCircle);
+		
+		System.out.println("Here is my play doh square");
+		System.out.println("firstSquare");
+		System.out.println("Here is my second square " + secondSquare);
+		
+	
+		
+		
 		System.out.println("This is a sample project to show the github and");
 		System.out.println("eclipse process so I develop muscle memory :D");
 		
 		testScanner();
 	}
-	
+ 	
 
 	private void testScanner()
 	{

@@ -14,6 +14,12 @@ public class PlayDohSquare
 	{
 		this.size = size;
 	}
+	public String toString()
+	{
+		String description = "I am a PlayDohSquare and my size is " + size;
+		return description;
+		
+	}
 	
 
 }
